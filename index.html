@@ -23,7 +23,7 @@
   <meta property="og:type" content="website" />
   <meta property="og:title" content="Hecke's Auto Repair | Trusted Auto Repair & Oil Change | Hot Springs, AR" />
   <meta property="og:description" content="Honest, affordable auto repair in Hot Springs, AR. Brake repair, oil changes, engine diagnostics & more. Serving Hot Springs since 2001. Call (501) 624-4582." />
-  <meta property="og:image" content="https://heckesautorepair.com/images/heckes-auto-repair-hot-springs-ar.jpg" />
+  <meta property="og:image" content="https://images.unsplash.com/photo-1552982070-5c7588fa46ec?q=85&w=1200&h=630&auto=format&fit=crop&ixlib=rb-4.0.3" />
   <meta property="og:image:width" content="1200" />
   <meta property="og:image:height" content="630" />
   <meta property="og:locale" content="en_US" />
@@ -34,7 +34,7 @@
   <meta name="twitter:card" content="summary_large_image" />
   <meta name="twitter:title" content="Hecke's Auto Repair | Hot Springs, AR" />
   <meta name="twitter:description" content="Honest, affordable auto repair in Hot Springs, AR. Brakes, oil changes, engine diagnostics & more. Call (501) 624-4582." />
-  <meta name="twitter:image" content="https://heckesautorepair.com/images/heckes-auto-repair-hot-springs-ar.jpg" />
+  <meta name="twitter:image" content="https://images.unsplash.com/photo-1552982070-5c7588fa46ec?q=85&w=1200&h=630&auto=format&fit=crop&ixlib=rb-4.0.3" />
 
   <!-- Theme Color -->
   <meta name="theme-color" content="#b91c1c" />
@@ -362,7 +362,9 @@
 
     /* ── HERO ── */
     .hero {
-      background: linear-gradient(135deg, var(--gray-900) 0%, #1a0000 100%);
+      background:
+        linear-gradient(135deg, rgba(17,24,39,.9) 0%, rgba(26,0,0,.87) 100%),
+        url('https://images.unsplash.com/photo-1552982070-5c7588fa46ec?q=80&w=1920&auto=format&fit=crop&ixlib=rb-4.0.3') center/cover no-repeat;
       color: #fff;
       padding: 6rem 1.25rem 5rem;
       text-align: center;
@@ -1037,16 +1039,11 @@
   <section class="about" id="about">
     <div class="section-inner">
       <div class="about-grid">
-        <div class="about-img-wrap" role="img" aria-label="Hecke's Auto Repair shop in Hot Springs, AR">
-          <div class="about-img-placeholder">
-            <svg width="80" height="80" fill="none" stroke="#9ca3af" stroke-width="1.5" viewBox="0 0 24 24" aria-hidden="true">
-              <path d="M3 17l1.5-4.5h15L21 17H3zM5 17v2a1 1 0 001 1h1a1 1 0 001-1v-1h8v1a1 1 0 001 1h1a1 1 0 001-1v-2"/>
-              <circle cx="7.5" cy="17" r="1"/>
-              <circle cx="16.5" cy="17" r="1"/>
-              <path d="M5 12.5V9a2 2 0 012-2h10a2 2 0 012 2v3.5"/>
-            </svg>
-            <span style="font-size:.85rem;color:#9ca3af;">Hecke's Auto Repair &mdash; 500 Summer St, Hot Springs</span>
-          </div>
+        <div class="about-img-wrap">
+          <img
+            src="https://images.unsplash.com/photo-1630028930946-61c629fa9f56?q=80&w=800&auto=format&fit=crop&ixlib=rb-4.0.3"
+            alt="Mechanic performing auto repair service at Hecke's Auto Repair in Hot Springs, AR"
+            style="width:100%;height:100%;object-fit:cover;display:block;" />
         </div>
         <div>
           <p class="section-label">About Us</p>
@@ -1084,7 +1081,16 @@
 
         <article class="service-card">
           <div class="service-icon" aria-hidden="true">
-            <svg fill="none" stroke="var(--red)" stroke-width="1.75" viewBox="0 0 24 24"><circle cx="12" cy="17" r="3"/><circle cx="5" cy="17" r="3"/><circle cx="19" cy="17" r="3"/><path d="M2 17H2M8 17h6M22 17h-0M5 14V9l3-5h8l3 5v5"/><path d="M11 4v5M8 9h8"/></svg>
+            <svg fill="none" stroke="var(--red)" stroke-width="1.75" stroke-linecap="round" viewBox="0 0 24 24">
+              <circle cx="12" cy="12" r="10"/>
+              <circle cx="12" cy="12" r="5"/>
+              <circle cx="12" cy="12" r="1.5"/>
+              <line x1="12" y1="10.5" x2="12" y2="7"/>
+              <line x1="13.43" y1="11.54" x2="16.76" y2="10.46"/>
+              <line x1="12.88" y1="13.21" x2="14.94" y2="16.05"/>
+              <line x1="11.12" y1="13.21" x2="9.06" y2="16.05"/>
+              <line x1="10.57" y1="11.54" x2="7.25" y2="10.46"/>
+            </svg>
           </div>
           <h3>Brake Repair &amp; Service</h3>
           <p>In Hot Springs, AR, our brake repair service covers pads, rotors, calipers, and brake fluid flushes. We diagnose the real issue&thinsp;&mdash;&thinsp;no part replacements unless they're actually needed.</p>
